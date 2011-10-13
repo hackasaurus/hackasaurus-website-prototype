@@ -1,0 +1,152 @@
+body {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size:100%;
+    }
+
+html>body {
+	font-size:14px;
+	}
+
+ul,
+ol {
+	padding-left:1em;
+	}
+
+p {
+	font-size:1em;
+	line-height:1.5em;
+	margin:0 0 1.5em 0;
+	}
+	
+h1 {
+	line-height:1em;
+	font-size:1.5em;
+	font-weight:normal;
+	margin:0 0 1em 0;
+	}
+	
+h2, h3 {
+	font-size:1.1667em;
+	line-height: 1.286em;
+	margin:0 0 0.643em 0;
+	font-weight:normal;
+	}
+
+.wrapper {
+	padding: 0 5%;
+	clear: both;
+	}
+
+.proto-col {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: box;
+    display: flexbox;
+    width: 100%;
+    }
+
+.proto-col section {
+    background-color: rgba(0,0,0,0.1);
+    border: 1px dashed #CCC;
+    margin: 10px;
+    padding: 20px 20px 0 20px;
+    width:960px;
+    -webkit-box-flex: 1;
+    -webkit-flex-box: 1;
+    -moz-box-flex: 1;
+    -moz-flex-box: 1;
+    -o-box-flex: 1;
+    -o-flex-box: 1;
+    box-flex: 1;
+    flex-box: 1;
+    }
+  
+   
+.proto-col .proto-mini {
+	-webkit-box-flex: 2;
+	-webkit-flex-box: 2;
+	-moz-box-flex: 2;
+	-moz-flex-box: 2;
+	-o-box-flex: 2;
+	-o-flex-box: 2;
+	box-flex: 2;
+	flex-box: 2;
+	}
+
+@media (max-width:800px) {
+
+	.proto-col {
+		display: block;
+	}
+
+	.proto-col section {
+		-webkit-box-flex: 0;
+		-webkit-flex-box: 0;
+		-moz-box-flex: 0;
+		-moz-flex-box: 0;
+		-o-box-flex: 0;
+		-o-flex-box: 0;
+		box-flex: 0;
+		flex-box: 0;
+		width: auto;
+	}
+
+
+}
+
+header.global,
+footer.global {
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	color: #FFF;
+}
+
+header.global {
+	border-top:4px solid #333;
+	margin-bottom: 10px;
+}
+
+footer.global {
+	margin-top: 10px;
+}
+
+nav.global {
+	overflow: hidden;
+	padding: 10px 0;
+	background-color: rgba(0,0,0,0.2);
+}
+
+nav.global ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+nav.global li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+nav.global li a {
+	color: #FFF;
+	padding: 5px 10px;
+}
+
+.logo {
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+.mofo {
+	position: absolute;
+	top: -10px;
+	right: 6%;
+	background-color: #333;
+	padding: 20px 10px 7px 10px;
+}
